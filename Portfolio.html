@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Laina Joan </title>
+<link rel="stylesheet" href="Stlye.css">
+
+</head>
+<body >
+
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+    </script>
+    
+
+
+<nav>
+  
+    <ul>
+     <li> <a href="#home ">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    
+</nav>
+<section id="home">
+  
+    <p>Hello, <br></p>
+    <p> <strong>I'm Laina Joan</strong>,<br> A passionate Geomatic Engineer</p>
+    <img src="laina.png" width="400px">
+    
+    
+</section>
+
+<section id="about">
+ <h3> About Laina</h3>
+<p>I am a dedicated Geomatic Engineering and Geospatial Information Systems
+  graduate with a knack for transforming complex data into meaningful insights. 
+  My expertise lies in cartography, data visualization, and leveraging technology 
+  like machine learning and AI to solve spatial problems.</p>
+
+
+<h3>Skills</h3>
+<p>With hands-on experience in Python, GIS tools, and web development, 
+  I bring a blend of technical skills and creative problem-solving. 
+  From developing interactive maps to conducting advanced data analysis,
+   I am committed to delivering impactful solutions.</p>
+
+
+<h3>Mission</h3>
+<p>My passion lies in making GIS accessible and intuitive for a broader audience.
+   I aspire to build platforms and solutions that empower organizations and
+    communities to make data-driven decisions with confidence.</p>
+
+</section>
+<section id="projects">
+  <h3>Key Achievements</h3>
+  <ul>
+  <li><p>Successfully conducted vulnerability assessments using Python and remote sensing data.</p></li>
+  <li><p>Designed and presented interactive web maps for urban planning projects.</p></li>
+  <li><p>Developed innovative workflows for optimizing GIS processes.</p></li>
+  </ul>
+
+<p>"I'm excited to collaborate on projects that push the boundaries of GIS and technology. Lets create something extraordinary together!"</p>
+</section>
+
+
+<footer id="contact">
+<address>
+<p>Engineer Laina Joan<br></p>
+<a href= "mailto:lainajoan975@gmail.com">email: lainajoan975@gmail.com</a><br>
+<p>phone: +254724760480<br></p>
+<p>Nairobi, Kenya</p>
+</address>
+</footer>
+</body>
+</html>
